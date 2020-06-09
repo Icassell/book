@@ -28,7 +28,7 @@
 
 各位读者，欢迎来到人工智能（简称AI）之旅的开始。你有没有想过那些在魔兽世界辛勤工作的peons是如何探索复杂的地图的？或者，那些在《吃豆人》里神采奕奕的鬼魂怎么能把你带到任何地方？或者你的对手在最终幻想中如何优化他们的攻击来屠杀你的队伍？
 
-![](.gitbook/assets/1.1%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.1%20%283%29.jpg)
 
 那你就来对地方了！ 在本章中，我们将探讨成为一个人工智能游戏开发者的先决条件，以及人工智能在游戏开发流程中的应用。然后，我们会回顾一下AI在电子游戏中的发展历史，并了解许多大佬的共同努力如何构建了我们今天所知的人工智能。之后，我们将讨论在虚幻引擎下的人工智能框架，因为这本书将集中讨论虚幻。
 
@@ -84,13 +84,13 @@
 
 虚幻引擎是一款由Epic Games公司开发的游戏引擎。它于1998年首次发布，由于它强大的功能，现在它是最常用的\(开放\)游戏引擎之一\(与Unity一起\)。如下截图为虚幻引擎主界面:
 
-![](.gitbook/assets/1.2%20%282%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.2%20%282%29.jpg)
 
 我们需要安装最新版本的虚幻引擎。你可以访问 [https://www.unrealengine.com/en-us/what-unreal-enging-4](https://www.unrealengine.com/en-us/what-unreal-enging-4) 找到它。除非你选择源代码版本虚幻引擎\([https://docs.unrealengine.com/en-us/Programming/Development/BuildingUnrealEngine\)中，您将安装Epic启动程序。如果您是一个蓝图用户，并且不打算使用C++，那么这就足够了。另一方面，如果您将使用C++，则需要执行一些额外的步骤。](https://docs.unrealengine.com/en-us/Programming/Development/BuildingUnrealEngine%29中，您将安装Epic启动程序。如果您是一个蓝图用户，并且不打算使用C++，那么这就足够了。另一方面，如果您将使用C++，则需要执行一些额外的步骤。)
 
 在安装引擎时，您需要检查一些选项\(如果您正在使用C++\)。我们需要检查是否同时具有“Engine Source”和“Editor symbols for debugging”，如下图所示：
 
-![](.gitbook/assets/1.3%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.3%20%283%29.jpg)
 
 通过这样做，我们将能够在C++引擎源代码中导航，并在崩溃的情况下拥有完整的调用堆栈\(因此您将知道哪里出错了\)。
 
@@ -143,7 +143,7 @@
 
 事实上，Russell和Norvig在他们的书中，将这些特定的定义分为四类。这是他们的模式:
 
-![](.gitbook/assets/1.4%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.4%20%283%29.jpg)
 
 Russell和Norvig的四个类别。左上:“像人类一样思考的系统”。右上:“理性思考的系统”。左下:“像人类一样的系统”。右下:“行为理性的系统”。
 
@@ -155,7 +155,7 @@ Russell和Norvig的四个类别。左上:“像人类一样思考的系统”。
 
 然而，这个故事的核心开始于1931年，当奥地利逻辑学家、数学家和哲学家科特·哥德尔证明了所有一阶逻辑的真实陈述都是可推导的。另一方面，这对于高阶逻辑是不正确的，在高阶逻辑中，一些正确\(或错误\)的陈述是无法证明的。这使得一阶逻辑成为自动化派生逻辑结果的良好候选。听起来复杂吗?好吧，你可以想象这在他的传统主义同龄人的耳朵里是怎么听来的。
 
-![](.gitbook/assets/1.5%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.5%20%283%29.jpg)
 
 1937年，英国计算机科学家、数学家、逻辑学家、密码分析员、哲学家和理论生物学家艾伦·图灵（Alan Turing）指出了“智能机器”的一些局限性：除非程序实际运行，否则无法预知它是否会终止。这在理论计算机科学中有许多结果。然而，最基本的一步发生在13年后的1950年，当时艾伦·图灵写了一篇著名的论文《Computing Machinery and Intelligence》，在这篇论文中他谈到了模仿游戏，现在主要被称为“图灵测试”：一种定义什么是智能机器的方法。
 
@@ -181,31 +181,31 @@ Russell和Norvig的四个类别。左上:“像人类一样思考的系统”。
 
 电子游戏中的第一种形式的人工智能是基础的，并用于像乒乓球这样的游戏中 \[雅达利，1972\]，太空入侵者\[中途游戏西部公司，1978\]，等等。事实上，除了移动球拍试图接住球，或将外星人推向玩家，我们能做的就不多了:
 
-![](.gitbook/assets/1.6%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.6%20%283%29.jpg)
 
 第一个使用明显人工智能的著名游戏是《吃豆人》\(Pac-Man\)。这四个怪物\(后来由于雅达利2600的一个闪烁的端口而被命名为鬼魂\)使用FSM追逐\(或逃离\)玩家:
 
-![](.gitbook/assets/1.7%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.7%20%283%29.jpg)
 
 在20世纪80年代，游戏中的AI并没有太大的改变。直到《魔兽争霸:人类与兽人》的问世\[暴雪娱乐，1994\]，一个寻路系统才得以在一款电子游戏中成功实现。我们将在第3章“导航”中探索虚幻中的导航系统:
 
-![](.gitbook/assets/1.8%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.8%20%283%29.jpg)
 
 可能是《黄金眼007》让人们开始对人工智能产生了兴趣\[Rare Ltd.， 1997\]，它展示了AI如何改善游戏玩法。虽然它仍然依赖FSMs，但创新之处在于角色可以看到彼此，并采取相应的行动。我们将在第五章Agent中探讨Agent Awareness。这在当时是一个热门话题，一些游戏将其作为主要的游戏机制，如《小偷:黑暗计划》和《合金齿轮》。
 
-![](.gitbook/assets/1.9%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.9%20%283%29.jpg)
 
-![](.gitbook/assets/1.10%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.10%20%283%29.jpg)
 
 另一个热门话题是模拟士兵在战斗中的情绪。其中的一个第一个实现情感模式的游戏是《战锤:黑暗》但它只是与幕府将军:全面战争这些模型在没有性能问题的大量士兵身上获得了极大的成功:
 
-![](.gitbook/assets/1.11%20%282%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.11%20%282%29.jpg)
 
-![](.gitbook/assets/1.12%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.12%20%283%29.jpg)
 
 一些游戏甚至将AI作为游戏玩法的核心。虽然最早这样做的游戏之一是Creatures \[Cyberlife Technology Ltd.， 1997\]，但这一概念在《模拟人生》或Black and White等游戏中更为明显：
 
-![](.gitbook/assets/1.13%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.13%20%283%29.jpg)
 
 在过去的20年里，许多人工智能技术被采用和/或开发。然而，如果游戏不需要高级AI，你可能会发现FSMs仍然被广泛使用，还有行为树，我们将在第二章“行为树和黑板”中开始探讨。
 
@@ -248,7 +248,7 @@ Russell和Norvig的四个类别。左上:“像人类一样思考的系统”。
 
 在这本书中，我们将经历人工智能如何感知、移动、计划和与周围环境互动的不同部分，所以画一个模式将会很有用。当然，还有许多其他的模式，它们都是同样有效的，但我相信这一模式对于开始AI游戏开发特别有用:
 
-![](.gitbook/assets/1.14%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.14%20%283%29.jpg)
 
 因为我们选择了自底向上的方法，所以我们应该从底层读取模式。我们将以更正式的术语将其称为我们的代理模型。
 
@@ -268,7 +268,7 @@ Russell和Norvig的四个类别。左上:“像人类一样思考的系统”。
 
 下图展示了它们之间的相互作用:
 
-![](.gitbook/assets/1.15%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/1.15%20%283%29.jpg)
 
 这两种控制器都可以拥有Pawn,，可以被认为是虚拟的化身。对于玩家来说，这可能是主角;对于一个AIController来说，Pawn可以是想要打败玩家的敌人。
 
@@ -375,7 +375,7 @@ AI开发人员仅仅知道行为树如何工作是不够的:他/她需要知道�
 
 有一个“根”节点，它是唯一没有父节点的节点。从这里开始，每个节点可以有一个或多个子节点，但只能有一个父节点。结束节点\(没有子节点\)称为叶子节点。这里有一个简单的图表来帮助你理解数学树的基本结构:
 
-![](.gitbook/assets/2.1%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.1%20%283%29.jpg)
 
 这看起来可能很复杂，但实际上并不复杂。随着我们继续讨论行为树，事情会变得有趣起来。
 
@@ -385,15 +385,15 @@ AI开发人员仅仅知道行为树如何工作是不够的:他/她需要知道�
 
 除了根节点之外，唯一的节点类型\(不是叶节点\)是复合节点。叶子被称为任务。装饰器和服务是复合节点或任务叶的附加组件。虽然虚幻让你保留复合节点作为一个叶子，您不应该这样做，因为这意味着您可以删除该节点，而行为树仍将以相同的方式工作。下面是一个树的例子，展示了所有不同类型的节点\(实际上，我们将在本书后面构建这个行为树\):
 
-![](.gitbook/assets/2.2%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.2%20%283%29.jpg)
 
 当执行树时，您需要从根节点开始，沿着树向下，从左到右读取节点。您以特定的方式遍历所有不同的分支\(组合节点\)\(我们稍后将看到这一点\)，直到到达一个叶节点，这是一个任务。在这种情况下，人工智能执行这个操作的任务。需要注意的是，任务可能会失败，例如，如果AI不能完成它。任务可能失败将有助于理解复合节点是如何工作的。毕竟，决策过程只是选择执行哪个任务以更好的方式实现目标\(例如杀死玩家\)。因此，基于哪个任务执行失败\(或者，正如我们将看到的，装饰器可能导致任务或整个分支失败\)，组合节点将确定树中的下一个任务。
 
 此外，在创建行为树时，可以选择每个节点，并且可以在详情面板中找到一些调整节点/叶子行为的设置。此外，由于顺序很重要，行为树中的节点都有数字\(在右上角\)来帮助您理解节点的顺序\(尽管它总是从上到下、从左到右\)。下面的截图显示了你可以在哪里找到这些数字:
 
-![](.gitbook/assets/2.3%20%282%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.3%20%282%29.jpg)
 
-![](.gitbook/assets/2.4%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.4%20%283%29.jpg)
 
 让我们详细查看这些组件，并特别注意组合节点。
 
@@ -401,11 +401,11 @@ AI开发人员仅仅知道行为树如何工作是不够的:他/她需要知道�
 
 关于根节点没有太多要说的。树需要从某处开始，所以根节点就是树开始执行的地方。它是这样的:
 
-![](.gitbook/assets/2.5%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.5%20%283%29.jpg)
 
 请注意，根节点只能有一个子节点，并且必须是复合节点。不能将任何装饰器或服务附加到根。如果您选择根节点，它没有任何属性，但您将能够分配黑板\(我们将在本章后面讲到\)，如下图所示:
 
-![](.gitbook/assets/2.6%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.6%20%283%29.jpg)
 
 **任务**
 
@@ -419,13 +419,13 @@ AI开发人员仅仅知道行为树如何工作是不够的:他/她需要知道�
 
 在行为树编辑器中，任务显示为紫色框。在下面的屏幕截图中，您可以看到一些任务示例以及它们在编辑器中的样子:
 
-![](.gitbook/assets/2.7%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.7%20%283%29.jpg)
 
 虚幻自带了一些可以使用的任务。它们是通用的，涵盖了您可能需要的基本情况。显然，它们不能特定于你的游戏，所以你需要创建自己的任务\(我们将在第6章“扩展行为树”中看到这一点\)。
 
 以下是虚幻中的内置任务列表:
 
-![](.gitbook/assets/2.8%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.8%20%283%29.jpg)
 
 * **Finish with Result**：强制任务立即返回一个结果\(失败或成功\)。
 * **Make Noise**：产生一种噪音，被感知系统使用\(这将在第5章Agent Awareness中进行探讨\)。
@@ -452,15 +452,15 @@ AI开发人员仅仅知道行为树如何工作是不够的:他/她需要知道�
 
 **Selector**:这类节点将尝试查找要执行的子节点之一，这意味着它将尝试查找要执行的分支\(即作为子节点附加的另一个组合节点\)或任务\(另一个子节点，但它是一个叶子\)。因此，选择器从最左边的子节点开始并尝试执行它。如果它失败\(要么任务执行失败，要么整个分支失败\)，那么它将尝试最左边的第二个分支，依此类推。如果其中一个子元素返回Success，这意味着任务已经完成或整个分支已经完成，则选择器向父选择器报告成功，并停止执行其他子选择器。另一方面，如果选择器的所有子元素都报告失败，那么选择器也会向父元素报告失败。在下面的截图中，您可以看到选择器节点:
 
-![](.gitbook/assets/2.9%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.9%20%283%29.jpg)
 
 **Sequence**:这种节点的工作方式有点像选择器的反面。要向父序列报告成功，序列的所有子序列都必须报告成功。这意味着序列将开始执行最左边的子节点。如果它是成功的，那么它就会在最左边的第二个位置继续，以此类推，如果它也是成功的。如果直到最右边的所有子元素都是成功的，那么序列就向它的父元素报告成功。否则，如果只有一个子代失败，则序列将停止执行它的子序列，并向父序列报告失败。在下面的截图中，你可以看到序列节点的样子:
 
-![](.gitbook/assets/2.10%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.10%20%283%29.jpg)
 
 **Simple Parallel**:这是一种特殊的组合节点，用于特定的情况。事实上，它只能有两个孩子。最左边的孩子必须是任务，而最右边的子元素既可以是任务，也可以是组合\(从而生成子树\)。简单的并行开始并行地执行它的两个子进程，尽管最左边的被认为是主进程。如果主节点失败，它将报告失败，但是如果主节点成功，它将报告成功。根据其设置，简单的并行一旦完成了主任务的执行，就可以等待到子树的执行结束，或者直接向父树报告主树的成功或失败，并停止执行子树。在下面的屏幕截图中，您可以看到简单的并行节点是什么样子的。请注意，可以只拖动两个子元素，其中最左边的元素必须是一个任务\(紫色的方块是可拖动的区域\):
 
-![](.gitbook/assets/2.11%20%283%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.11%20%283%29.jpg)
 
 通过这种方式，组合节点可以根据其子节点的报告\(失败或成功\)“决定”执行哪些任务，并将组合节点的报告返回给父节点\(失败或成功\)。即使根的独生子女\(这是一个 组合节点\)向根报告成功，然后成功执行树。一个好的行为树设计应该总是考虑到成功。
 
@@ -478,13 +478,13 @@ AI开发人员仅仅知道行为树如何工作是不够的:他/她需要知道�
 
 下面的屏幕截图显示了如何将decorator附加到复合节点。注意，每个节点可以有多个装饰器:
 
-![](.gitbook/assets/2.12%20%282%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.12%20%282%29.jpg)
 
 和Tasks一样，虚幻也有一些内置的装饰器可供使用。它们是通用的，涵盖了你可能需要的基本情况，但显然，它们不能为你的游戏或应用程序专门设置，所以你需要创建自己的decorator\(我们将在第6章中详细介绍，扩展行为树\)。
 
 以下是虚幻的内置任务列表:
 
-![](.gitbook/assets/2.13%20%282%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.13%20%282%29.jpg)
 
 * **Blackboard**：检查黑板上是否设置了特定的key。
 * **Check Gameplay Tags on Actor**：顾名思义，它检查Actor是否有一个特定的游戏标签，指定黑板上key。
@@ -509,7 +509,7 @@ AI开发人员仅仅知道行为树如何工作是不够的:他/她需要知道�
 
 **Service**节点附加到复合节点或任务节点，并将在其分支被执行时执行。这意味着，只要附加了节点下面的节点，不管执行多少级别的父子级，服务也将运行。下面的屏幕截图将帮助您可视化：
 
-![](.gitbook/assets/2.14%20%282%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.14%20%282%29.jpg)
 
 这意味着服务节点是行为树执行的眼睛。实际上，它们是连续运行的\(如果子树是活动的\)，并且可以实时执行检查和/或更新黑板\(稍后见\)值。
 
@@ -519,11 +519,11 @@ AI开发人员仅仅知道行为树如何工作是不够的:他/她需要知道�
 
 下面的屏幕截图显示了几个服务示例。请注意，服务可以与装饰器一起使用，一个复合节点可以有多个服务:
 
-![](.gitbook/assets/2.15%20%282%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.15%20%282%29.jpg)
 
 只有两个可用的默认服务\(因为你需要为你的游戏编程，我们将在第六章扩展行为树中做\)如下截图所示:
 
-![](.gitbook/assets/2.16%20%282%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.16%20%282%29.jpg)
 
 * **Set Default Focus**:当此节点激活时，将自动设置AI控制器的默认焦点。
 * **Run EQS**\(Query on a regular basis\):顾名思义，它运行一个环境查询\(请参阅第4章，环境查询系统，了解更多信息\)，定期检查特定的地点或角色。这就是我们在为敌人寻找掩护的例子中所需要的服务。
@@ -556,7 +556,7 @@ AI开发人员仅仅知道行为树如何工作是不够的:他/她需要知道�
 
 最后，我将我的项目命名为UnrealAIBook，如下面的截图所示。同样，您可以在以下链接中找到项目文件:[http://hog.red/AIBook2019ProjectFiles](http://hog.red/AIBook2019ProjectFiles) \(链接区分大小写\):
 
-![](.gitbook/assets/2.17%20%282%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.17%20%282%29.jpg)
 
 ### 从AI Controllers开始我们的行为树
 
@@ -576,33 +576,33 @@ AI开发人员仅仅知道行为树如何工作是不够的:他/她需要知道�
 
 现在，我们将黑板命名为BB_MyFirstBlackboard。在这里，我使用命名约定，以BB_作为所有黑板的前缀。除非您有特殊的理由不遵循此命名约定，否则请使用它。通过这样做，您将与本书的其余部分同步。
 
-![](.gitbook/assets/2.18%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.18%20%281%29.jpg)
 
 #### 创建行为树
 
 让我们通过进入内容浏览器并选择add来添加行为树Add New &gt; Artificial Intelligence &gt; Behavior Tree，如下图截图:
 
-![](.gitbook/assets/2.19%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.19%20%281%29.jpg)
 
 现在，我们将命名行为树为BT_MyFirstBehaviorTree。同样，在这里，我使用了一个特定的命名约定，以BT_作为所有行为树资产的前缀。同样，请遵循命名约定，除非您有特殊的理由不这样做。
 
 当您打开行为树窗口时，您将看到一个根节点,如下:
 
-![](.gitbook/assets/2.20%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.20%20%281%29.jpg)
 
 根是行为树的执行开始的地方\(从上到下，从左到右\)。根本身只有一个引用，即黑板，所以它不能和其他东西连接。它是树的顶端，所有后续节点都在它下面。
 
 如果从根节点拖动，就可以添加复合节点：
 
-![](.gitbook/assets/2.21%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.21%20%281%29.jpg)
 
 为此，行为树编辑器非常直观。可以继续从节点中拖出以添加复合或任务节点。添加一个装饰器或服务，您可以右键单击节点并选择“Add Decorator…”或“Add”服务……”，分别如下图所示:
 
-![](.gitbook/assets/2.22%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.22%20%281%29.jpg)
 
 最后，如果单击一个节点，则可以在详细信息面板看到 具体参数\(下面的截图显示了一个例子\):
 
-![](.gitbook/assets/2.23%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.23%20%281%29.jpg)
 
 ### 在AI Controller中执行行为树
 
@@ -614,29 +614,29 @@ AI开发人员仅仅知道行为树如何工作是不够的:他/她需要知道�
 
 我们可以通过点击Add New \| BlueprintClass \| AI Controller。你必须点击所有的类并搜索AI Controller来访问它。你可以在下面的截图中看到一个例子:
 
-![](.gitbook/assets/2.24%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.24%20%281%29.jpg)
 
 现在，命名我们的AI Controller为BP\_MyFirstAIController。双击它以打开蓝图编辑器。
 
 首先，我们需要创建一个变量，以便存储行为树。虽然没有必要保持对行为树的引用，但是这样做是一个好的实践。要创建一个变量，我们需要在我的蓝图面板中按下变量标签旁边的+ Variable按钮，如下图所示\(记住，你的光标需要在变量标签上才能显示按钮\):
 
-![](.gitbook/assets/2.25%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.25%20%281%29.jpg)
 
 然后，您需要选择行为树变量类型并给它一个名称，比如BehaviorTreeReference。你的变量应该是这样的:
 
-![](.gitbook/assets/2.26%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.26%20%281%29.jpg)
 
 然后，在详细面板中，我们将设置默认值\(记住，设置默认值需要对蓝图进行编译\):
 
-![](.gitbook/assets/2.27%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.27%20%281%29.jpg)
 
 然后，我们需要重写On Possess函数，如下图所示:
 
-![](.gitbook/assets/2.28%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.28%20%281%29.jpg)
 
 最后，在AI Controller的事件Event On Possess 中，我们需要开始运行/执行行为树。我们可以使用以下简单的节点来实现这一点，名为Run Behavior Tree:
 
-![](.gitbook/assets/2.29%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.29%20%281%29.jpg)
 
 因此，你的AI Controller将能够执行存储在BehaviorTreeReference中的行为树。
 
@@ -654,19 +654,19 @@ PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engi
 
 让我们创建一个新的C++类，如下面的截图所示:
 
-![](.gitbook/assets/2.30%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.30%20%281%29.jpg)
 
 该类需要从AI Controller类继承。您可能需要勾选右上角的“显示所有类”复选框，然后使用搜索栏，如下面的截图所示:
 
-![](.gitbook/assets/2.31%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.31%20%281%29.jpg)
 
 单击Next并将类命名为MyFirstAIController。此外，我建议你保持我们项目的整洁。因此，单击Choose Folder按钮。虚幻将提示你去你的系统文件夹资源管理器。在这里，创建一个名为AI的子文件夹。选择这个文件夹作为存储我们将要创建的代码段的地方。在你点击创建之前，对话框应该是这样的:
 
-![](.gitbook/assets/2.32%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.32%20%281%29.jpg)
 
 现在，单击Create并等待编辑器加载。你可能会看到这样的东西:
 
-![](.gitbook/assets/2.33%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.33%20%281%29.jpg)
 
 与蓝图版本相比，代码的结构将略有不同。事实上，我们不能直接从AI Controller类中分配行为树\(主要是因为很难直接引用它\);相反，我们需要从Character上获取。正如我前面提到的，当您使用蓝图时，这也是一个很好的方法，但是由于我们选择了一个C++项目，我们应该看看一些代码。在Visual Studio中打开UnrealAIBookCharacter.h文件，在公共变量下面，添加以下代码行:
 
@@ -703,7 +703,7 @@ public:
 
 关闭Character类，因为我们已经完成了它。因此，每当我们在世界中放置一个Character的实例时，我们就能够从细节面板中指定一个行为树，如下面的截图所示:
 
-![](.gitbook/assets/2.34%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.34%20%281%29.jpg)
 
 让我们打开新创建的AI Controller的头文件\(.h\)\(如果你使用VS作为IDE，它应该已经在Visual Studio中打开了\)。特别是，我们需要重写AI Controller类的一个函数。我们要覆盖的函数叫做Possess\(\)，它允许我们在AI中运行一些代码操控者拥有一个新的Pawn\(也就是说，当它控制角色时，这个角色是一个Pawn\)。添加以下粗体代码\(在受保护的可见性内\):
 
@@ -746,11 +746,11 @@ void AMyFirstAIController::OnPossess(APawn* InPawn)
 
 一旦我们编译了我们的项目，我们将能够使用这个控制器。在关卡中选择我们的AI character\(如果你没有它，你可以创建一个\)，这一次，在细节面板中，我们可以设置C++控制器，如下所示:
 
-![](.gitbook/assets/2.35%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.35%20%281%29.jpg)
 
 另外，不要忘记在细节面板中设置行为树:
 
-![](.gitbook/assets/2.36%20%281%29.jpg)
+![](https://github.com/Smartuil/book/tree/b5abac94b67e7d4ad49c94362ed0864efbe05219/.gitbook/assets/2.36%20%281%29.jpg)
 
 因此，一旦游戏开始，敌人将开始执行行为树。目前，树是空的，但这提供了我们需要的结构，以便我们可以开始使用行为树。在接下来的章节中，我们将更详细地探索行为树，特别是在第8、9和第8章10、在那里我们将看到一个更实际的方法来设计和建造行为树。
 
@@ -1024,80 +1024,85 @@ UNavArea_Desert::UNavArea_Desert()
 
 ![](.gitbook/assets/3.25.jpg)
 
-一旦链接被放置在关卡中，你会看到一个“箭头/链接”，你可以修改链接的起始点和结束点。它们被称为Left和Right，设置它们位置的最简单的方法是将它们拖放到视窗中。因此，你将能够连接Nav网格的两个不同部分。正如我们在下面的截图中看到的，如果Nav网格是可见的(用P键启用)，你会看到一个箭头连接左右节点。这个箭头指向两个方向。这将导致链接是双向的:
+一旦链接被放置在关卡中，你会看到一个“箭头/链接”，你可以修改链接的起始点和结束点。它们被称为Left和Right，设置它们位置的最简单的方法是将它们拖放到视窗中。因此，你将能够连接Nav网格的两个不同部分。正如我们在下面的截图中看到的，如果Nav网格是可见的\(用P键启用\)，你会看到一个箭头连接左右节点。这个箭头指向两个方向。这将导致链接是双向的:
 
-![](Images/3.26.jpg)
+![](.gitbook/assets/3.26.jpg)
 
-![](Images/3.27.jpg)
+![](.gitbook/assets/3.27.jpg)
 
 如果你想让链接只在一个方向上运行，我们可以在细节面板中改变这个设置。但是，要研究这些设置，我们首先需要了解有两种不同类型的链接:简单链接和智能链接。
 
 #### 简单链接和智能链接
+
 当我们创建一个Nav Link Proxy，它带来了一个简单的链接数组。这意味着与一个单一的Nav Link Proxy，我们可以连接的不同部分Nav交织在一起时。然而，Nav Link Proxy带来了一个单一的智能链接，默认情况下是禁用的。
 
 让我们来学习简单链接和智能链接之间的异同。
 
-##### Both Simple and Smart Links
-简单链接和智能链接的行为方式相似，它们将导航网的两个部分连接在一起。此外，这两种类型的链接都可以有方向(从左到右，从右到左，或者双向)和Nav Area(链接所在的导航区域;例如，在使用此链接时，您可能希望可以自定义cost)。
+**Both Simple and Smart Links**
 
-##### 简单链接
+简单链接和智能链接的行为方式相似，它们将导航网的两个部分连接在一起。此外，这两种类型的链接都可以有方向\(从左到右，从右到左，或者双向\)和Nav Area\(链接所在的导航区域;例如，在使用此链接时，您可能希望可以自定义cost\)。
+
+**简单链接**
+
 简单链接存在于Nav Proxy Link中的Point Links Array中，这意味着在一个Nav Proxy Link中可能存在多个简单链接。要创建另一个简单链接，可以向数组中添加额外的元素细节面板中的简单节点，如下面的截图所示:
 
-![](Images/3.28.jpg)
+![](.gitbook/assets/3.28.jpg)
 
-一旦我们有了更多的简单链接，我们就可以设置开始和结束位置，就像我们对第一个链接所做的那样(通过选择它们并像其他actor一样在Viewport中移动它们)。下面的屏幕截图显示了我放置了两个简单的链接在Nav Proxy Link旁边:
+一旦我们有了更多的简单链接，我们就可以设置开始和结束位置，就像我们对第一个链接所做的那样\(通过选择它们并像其他actor一样在Viewport中移动它们\)。下面的屏幕截图显示了我放置了两个简单的链接在Nav Proxy Link旁边:
 
-![](Images/3.29.jpg)
+![](.gitbook/assets/3.29.jpg)
 
 对于Point Links Array中的每个简单链接，我们都可以通过展开项来访问其设置。下面的截图显示了第一个简单链接的设置:
 
-![](Images/3.30.jpg)
+![](.gitbook/assets/3.30.jpg)
 
 让我们来了解一下这些不同的设置:
-- **Left and Right**：链接的左右两端的位置。
-- **Left Project Height and Right Project Height**：如果该数字大于零，则链接将分别向下投影到左侧和的导航几何图形(使用由该数字指定的最大长度的跟踪)链接的右端。你可以在下面的截图中看到这个投影链接:
 
-![](Images/3.31.jpg)
+* **Left and Right**：链接的左右两端的位置。
+* **Left Project Height and Right Project Height**：如果该数字大于零，则链接将分别向下投影到左侧和的导航几何图形\(使用由该数字指定的最大长度的跟踪\)链接的右端。你可以在下面的截图中看到这个投影链接:
 
-- **Direction**：这指定了链接工作的方向。同时，视窗中的箭头也会相应地更新。可能的选择如下:
-    - **Both Ways**：链接是双向的(记住AI需要具备双向穿越链路的能力;例如，如果我们要越过一个平台，则代理需要能够从其上跌落（链路的一个方向）并跳跃（链路的另一个方向）。
-    - **Left to Right**：该链接只能从左端到右端(代理仍然需要能够沿着该链接方向前进)。
-    - **Right to Left**：该链接只能从右端到左端(代理仍然需要能够沿着该链接方向前进)。
-- **Snap Radius and Height Radius**：你可能已经注意到每个链接末端都有一个圆柱体。这两个设置控制半径和圆柱体的高度。检查cost最小的区域，以获得关于此圆柱使用的更多信息。下面的截图显示，第一个链接有一个更大的圆柱体(半径和更高):
+![](.gitbook/assets/3.31.jpg)
 
-![](Images/3.32.jpg)
+* **Direction**：这指定了链接工作的方向。同时，视窗中的箭头也会相应地更新。可能的选择如下:
+  * **Both Ways**：链接是双向的\(记住AI需要具备双向穿越链路的能力;例如，如果我们要越过一个平台，则代理需要能够从其上跌落（链路的一个方向）并跳跃（链路的另一个方向）。
+  * **Left to Right**：该链接只能从左端到右端\(代理仍然需要能够沿着该链接方向前进\)。
+  * **Right to Left**：该链接只能从右端到左端\(代理仍然需要能够沿着该链接方向前进\)。
+* **Snap Radius and Height Radius**：你可能已经注意到每个链接末端都有一个圆柱体。这两个设置控制半径和圆柱体的高度。检查cost最小的区域，以获得关于此圆柱使用的更多信息。下面的截图显示，第一个链接有一个更大的圆柱体\(半径和更高\):
 
-- **Description**：这只是一个字符串，为了方便你可以插入描述;它对导航或链接没有影响。
-- **Snap to Cheapest Area**：如果启用，它将尝试将链接末端连接到圆柱内可用三角形中cost最小的区域，该区域由单元半径和高度半径指定。例如，如果圆柱体与Default Nav Area和BPJungle Nav Area都相交(我们之前创建的)，该链接将直接连接到Default Nav Area，而不是丛林。
-- **Area Class**：该链接可能需要有一定的cost才能穿过，或者具有特定的Nav Area。此参数允许您定义穿过该链接时属于哪种类型的Nav Area。
+![](.gitbook/assets/3.32.jpg)
+
+* **Description**：这只是一个字符串，为了方便你可以插入描述;它对导航或链接没有影响。
+* **Snap to Cheapest Area**：如果启用，它将尝试将链接末端连接到圆柱内可用三角形中cost最小的区域，该区域由单元半径和高度半径指定。例如，如果圆柱体与Default Nav Area和BPJungle Nav Area都相交\(我们之前创建的\)，该链接将直接连接到Default Nav Area，而不是丛林。
+* **Area Class**：该链接可能需要有一定的cost才能穿过，或者具有特定的Nav Area。此参数允许您定义穿过该链接时属于哪种类型的Nav Area。
 
 这就是简单链接。然而，这是一个非常强大的工具，可以让你构造Nav Mesh，并实现惊人的AI行为。现在，让我们进入智能链接。
 
-##### 智能链接
+**智能链接**
+
 可以在运行时使用“Smart Link Is Relevant”启用和禁用“智能链接”。您还可以通知周围的Actors。默认情况下，它是不相关的，每个Nav Proxy Link只有一个智能链接。
 
-不幸的是(至少对于当前的引擎版本)，这些在编辑器中是不可见的，这意味着需要手动设置开始和结束位置。
+不幸的是\(至少对于当前的引擎版本\)，这些在编辑器中是不可见的，这意味着需要手动设置开始和结束位置。
 
 不过，让我们来看看智能链接的设置：
 
-![](Images/3.33.jpg)
+![](.gitbook/assets/3.33.jpg)
 
-- **Enabled Area Class**：这是该链接启用时默认的Nav Area。默认值是NavArea_Default。
-- **Disabled Area Class**：这是链路被禁用时假定的Nav Area。这意味着，当链接被禁用时，如果分配了一个可交叉的区域，它仍然可以穿过(例如，当链接被禁用时，我们可能希望有一个非常高的成本，但我们仍然希望它是可以穿过的。当然，默认值是NavArea_Default，这意味着它是不可穿过的）。
-- **Link Relative Start**：这表示链接的起点，相对于它的Nav Link Proxy的位置。
-- **Link Relative End**：这表示链接的终点，相对于它的Nav Link Proxy的位置。
-- **Link Direction**：这指定了链接工作的方向。可能的选择如下:
-    - **Both Ways**：链路是双向的(记住AI需要具备双向穿越链路的能力;例如，在一个突出的地方，代理人需要能够从上面掉下来(链接的一个方向)和跳跃(链接的另一个方向)。
-    - **Left to Right**：该链接只能从左端到右端(代理仍然需要能够沿着该链接方向前进)。
-    - **Right to Left**：该链接只能从右端到左端(代理仍然需要能够沿着该链接方向前进)。
-- **Link Enabled**：这是一个布尔变量，它决定是否智能启用链接。这个值可以在运行时更改，链接也可以更改“通知”周围对这些信息感兴趣的代理/参与者(更多信息请参阅后面)。默认值为true。
-- **Smart Link Is Relevant**：这是一个布尔变量，用于确定智能链接是否实际处于“活动”状态，也就是说，它是否相关，或者我们是否应该忽略它。默认值为false。
+* **Enabled Area Class**：这是该链接启用时默认的Nav Area。默认值是NavArea\_Default。
+* **Disabled Area Class**：这是链路被禁用时假定的Nav Area。这意味着，当链接被禁用时，如果分配了一个可交叉的区域，它仍然可以穿过\(例如，当链接被禁用时，我们可能希望有一个非常高的成本，但我们仍然希望它是可以穿过的。当然，默认值是NavArea\_Default，这意味着它是不可穿过的）。
+* **Link Relative Start**：这表示链接的起点，相对于它的Nav Link Proxy的位置。
+* **Link Relative End**：这表示链接的终点，相对于它的Nav Link Proxy的位置。
+* **Link Direction**：这指定了链接工作的方向。可能的选择如下:
+  * **Both Ways**：链路是双向的\(记住AI需要具备双向穿越链路的能力;例如，在一个突出的地方，代理人需要能够从上面掉下来\(链接的一个方向\)和跳跃\(链接的另一个方向\)。
+  * **Left to Right**：该链接只能从左端到右端\(代理仍然需要能够沿着该链接方向前进\)。
+  * **Right to Left**：该链接只能从右端到左端\(代理仍然需要能够沿着该链接方向前进\)。
+* **Link Enabled**：这是一个布尔变量，它决定是否智能启用链接。这个值可以在运行时更改，链接也可以更改“通知”周围对这些信息感兴趣的代理/参与者\(更多信息请参阅后面\)。默认值为true。
+* **Smart Link Is Relevant**：这是一个布尔变量，用于确定智能链接是否实际处于“活动”状态，也就是说，它是否相关，或者我们是否应该忽略它。默认值为false。
 
 这些是关于智能链接的主要设置。
 
 值得一提的是，智能链接实际上可以做的不仅仅是Nav Meshes。它们有一系列函数来处理穿过该代理链接。例如，通过打开NavLinkProxy.h文件，我们可以找到以下函数:
 
-```C++
+```cpp
   /** called when agent reaches smart link during path following, use ResumePathFollowing() to give control back */
   UFUNCTION(BlueprintImplementableEvent)
   void ReceiveSmartLinkReached(AActor* Agent, const FVector& Destination);
@@ -1117,94 +1122,101 @@ UNavArea_Desert::UNavArea_Desert()
   /** check if any agent is moving through smart link right now */
   UFUNCTION(BlueprintCallable, Category="AI|Navigation")
   bool HasMovingAgents() const;
-  ```
+```
 
 不幸的是，这些函数超出了本书的范围，但我邀请您阅读代码以了解更多关于它们的知识。
 
 在前面，我们提到智能链接可以在运行时向附近的代理/参与者广播关于其状态更改的信息。您可以使用广播设置更改智能链接广播此信息的方式，广播设置位于智能链接设置的正下方：
 
-![](Images/3.34.jpg)
+![](.gitbook/assets/3.34.jpg)
 
 这些设置相当直观，但让我们快速浏览一下:
-- **Notify when Enabled**:如果为true，则链接将在启用时通知代理/参与者。
-- **Notify when Disabled**:如果为true，则链接将在禁用时通知代理/参与者。
-- **Broadcast Radius**：它指定广播应该走多远。此半径以外的每个代理都不会收到有关链接更改的通知。
-- **Broadcast Interval**：这将指定链接应在多长时间后重复广播。如果该值为零，则广播仅重复一次。
-- **Broadcast Channel**：这是用于更改广播的跟踪通道。我们关于智能链接的讨论到此结束。
+
+* **Notify when Enabled**:如果为true，则链接将在启用时通知代理/参与者。
+* **Notify when Disabled**:如果为true，则链接将在禁用时通知代理/参与者。
+* **Broadcast Radius**：它指定广播应该走多远。此半径以外的每个代理都不会收到有关链接更改的通知。
+* **Broadcast Interval**：这将指定链接应在多长时间后重复广播。如果该值为零，则广播仅重复一次。
+* **Broadcast Channel**：这是用于更改广播的跟踪通道。我们关于智能链接的讨论到此结束。
 
 #### Nav Link Proxy的其他设置
+
 最后，值得一提的是，Nav Link Proxy 可以在生成Nav网格时创建一个障碍框。您可以在Nav Link Proxy 的详细信息面板中找到这些设置，如以下屏幕截图所示：
 
-![](Images/3.35.jpg)
+![](.gitbook/assets/3.35.jpg)
 
 这些设置允许你决定障碍框是否活动/使用，它的尺寸/范围和偏移量，以及导航区域的类型。
 
 #### 扩展Nav Link Proxy
+
 如果您想知道是否可以扩展链接或将它们包含在更复杂的actors中，那么答案是“当然可以!”但是你只能在C++中扩展它们。
 
 因为这本书不能涵盖一切，所以我们没有时间详细讨论这个问题。但是，您可能希望扩展Nav Link Proxy 的一些原因是为了更好地控制输入链接的characters。例如，您可能需要一个跳板来推动character通过链接。这并不复杂，如果你在网上搜索，你会发现很多关于如何使用导航链接来完成这项工作的教程。
 
 只要记住，要成为一个好的AI程序员，你将最终需要掌握这部分导航链接，但现在，足够我们用了。
 
-### 导航中的避障
+#### 导航中的避障
+
 导航避障是一个非常广泛的话题，虚幻有一些子系统为我们做这个。因此，我们将在第6章“集群”中讨论这个话题。
 
-### Navigation Filter
+#### Navigation Filter
+
 我们不想每次都以同样的方式找到一条路。想象一下，我们的强化了人工智能代理，它能够以两倍的速度穿越丛林。在这种情况下，导航系统不会意识到这种变化，也不会永久改变导航网格的形状或权重。
 
-Nav过滤允许我们定义具体的规则如何执行特定时期的路径发现。您可能已经注意到，每次我们执行导航任务时，无论是在蓝图还是C++中，都有一个可选参数用于插入Nav过滤器。下面是一些带有可选过滤器参数的蓝图节点(C++函数也是如此)的例子:
+Nav过滤允许我们定义具体的规则如何执行特定时期的路径发现。您可能已经注意到，每次我们执行导航任务时，无论是在蓝图还是C++中，都有一个可选参数用于插入Nav过滤器。下面是一些带有可选过滤器参数的蓝图节点\(C++函数也是如此\)的例子:
 
-![](Images/3.36.jpg)
+![](.gitbook/assets/3.36.jpg)
 
 即便是行为树的Move To节点也有导航过滤器选项:
 
-![](Images/3.37.jpg)
+![](.gitbook/assets/3.37.jpg)
 
 当然，一旦您插入了一个过滤器，寻路将相应地表现出来。这意味着使用Nav过滤器非常简单。但是，如何创建导航过滤器？让我们在蓝图和C++中找到答案。
 
 #### 在蓝图中创建Navigation Filter
+
 在本章之前，我们在蓝图中创建了一个丛林区域。因此，这似乎是一个很好的例子，我们可以使用它来创建一个Nav过滤器，允许AI代理更快地穿越丛林，甚至比穿越Nav网格的默认区域还要快。让我们想象一下，人工智能代理有某种力量或能力，可以让它在丛林型区域移动得更快。
 
 要在蓝图中创建Navigation Filter，我们需要开始创建继承自NavigationQueryFilter的新蓝图，如下图所示：
 
-![](Images/3.38.jpg)
+![](.gitbook/assets/3.38.jpg)
 
-按照惯例，类的名称应该以“NavFilter_”开头。我们将把它命名为NavFilter_BPFastJungle（我添加了BP，这样我就可以记住，我用蓝图创建了这个，因为我们在蓝图和C++中有相同的任务）。这就是它在内容浏览器中的外观：
+按照惯例，类的名称应该以“NavFilter\_”开头。我们将把它命名为NavFilter\_BPFastJungle（我添加了BP，这样我就可以记住，我用蓝图创建了这个，因为我们在蓝图和C++中有相同的任务）。这就是它在内容浏览器中的外观：
 
-![](Images/3.39.jpg)
+![](.gitbook/assets/3.39.jpg)
 
 一旦我们打开蓝图，我们会在细节面板中找到它的选项:
 
-![](Images/3.40.jpg)
+![](.gitbook/assets/3.40.jpg)
 
-如您所见，有一个Array of Areas和两个包含和排除（Nav）标志集。不幸的是，我们没有覆盖Nav Flags，因为它们超出了本书的范围，它们只能在C++中使用。然而，这些Array of Areas非常有趣。让我们添加一个新Area使用我们的NavArea_BPJungle创建Area类，如下面的截图所示:
+如您所见，有一个Array of Areas和两个包含和排除（Nav）标志集。不幸的是，我们没有覆盖Nav Flags，因为它们超出了本书的范围，它们只能在C++中使用。然而，这些Array of Areas非常有趣。让我们添加一个新Area使用我们的NavArea\_BPJungle创建Area类，如下面的截图所示:
 
-![](Images/3.41.jpg)
+![](.gitbook/assets/3.41.jpg)
 
-现在，我们可以覆盖丛林区域的Travel Cost和Entering Cost，如果使用这个过滤器，将使用这些成本来代替我们在Area类中指定的成本。记住勾选选项名称旁边的复选框以启用编辑。例如，我们可以有0.6的Travel Cost(因为我们可以快速穿过丛林而没有任何问题)和Entering Cost为0:
+现在，我们可以覆盖丛林区域的Travel Cost和Entering Cost，如果使用这个过滤器，将使用这些成本来代替我们在Area类中指定的成本。记住勾选选项名称旁边的复选框以启用编辑。例如，我们可以有0.6的Travel Cost\(因为我们可以快速穿过丛林而没有任何问题\)和Entering Cost为0:
 
-![](Images/3.42.jpg)
+![](.gitbook/assets/3.42.jpg)
 
-如果你还遵循C++部分的Nav Areas，那么你也应该在你的项目中拥有沙漠区域。作为可选步骤，我们可以向过滤器添加第二个区域。想象一下，通过在丛林中使用更强的或快速移动的能力，我们的角色对太阳非常敏感，并且非常容易被太阳晒伤，这会显著降低他们的健康。因此，如果使用这种过滤器，我们可以为沙漠地区设定更高的成本。只需添加另一个区域，并将Area类设置为NavArea_Desert。然后，覆盖成本；例如，Travel Cost为2.5，Entering Cost为10：
+如果你还遵循C++部分的Nav Areas，那么你也应该在你的项目中拥有沙漠区域。作为可选步骤，我们可以向过滤器添加第二个区域。想象一下，通过在丛林中使用更强的或快速移动的能力，我们的角色对太阳非常敏感，并且非常容易被太阳晒伤，这会显著降低他们的健康。因此，如果使用这种过滤器，我们可以为沙漠地区设定更高的成本。只需添加另一个区域，并将Area类设置为NavArea\_Desert。然后，覆盖成本；例如，Travel Cost为2.5，Entering Cost为10：
 
-![](Images/3.43.jpg)
+![](.gitbook/assets/3.43.jpg)
 
 完成设置编辑后，保存蓝图。从现在开始，您将能够在导航系统中使用这个过滤器。这就总结了如何在蓝图中创建一个导航过滤器。
 
 #### 在C++中创建Navigation Filter
+
 与蓝图类似，我们可以创建一个C++ Nav过滤器。这一次，我们可以创建一个过滤器，稍微降低沙漠地区的成本。你可以对生活在沙漠中的某些动物使用这个过滤器，这样它们就不容易受到它的影响。
 
 首先，我们需要创建一个新的C++类继承自NavigationQueryFilter,如下面的截图所示：
 
-![](Images/3.44.jpg)
+![](.gitbook/assets/3.44.jpg)
 
-按照惯例，类的名称应该以“NavFilter_”开头。因此，我们将它重命名为NavFilter_DesertAnimal并将其放在“Chapter3/Navigation”:
+按照惯例，类的名称应该以“NavFilter\_”开头。因此，我们将它重命名为NavFilter\_DesertAnimal并将其放在“Chapter3/Navigation”:
 
-![](Images/3.45.jpg)
+![](.gitbook/assets/3.45.jpg)
 
-要设置它的属性，我们需要创建一个默认构造函数。在头文件(.h)中写入以下内容:
+要设置它的属性，我们需要创建一个默认构造函数。在头文件\(.h\)中写入以下内容:
 
-```C++
+```cpp
 #include "CoreMinimal.h"
 #include "NavFilters/NavigationQueryFilter.h"
 #include "NavFilter_DesertAnimal.generated.h"
@@ -1219,15 +1231,15 @@ class UNREALAIBOOK_API UNavFilter_DesertAnimal : public UNavigationQueryFilter
 };
 ```
 
-对于实现（.cpp文件），我们需要做更多的工作。首先，我们需要进入我们需要的导航区域，在这种情况下，这就是沙漠。让我们添加以下“#include”语句：
+对于实现（.cpp文件），我们需要做更多的工作。首先，我们需要进入我们需要的导航区域，在这种情况下，这就是沙漠。让我们添加以下“\#include”语句：
 
-```C++
+```cpp
 #include "NavArea_Desert.h"
 ```
 
 然后，在构造函数中，我们需要创建一个FNavigationFilterArea，它是一个包含筛选特定类的所有选项的类。在我们的例子中，我们可以将这个新的过滤器区域存储在一个名为Desert的变量中:
 
-```C++
+```cpp
 UNavFilter_DesertAnimal::UNavFilter_DesertAnimal() {
   //Create the Navigation Filter Area
   FNavigationFilterArea Desert = FNavigationFilterArea();
@@ -1237,7 +1249,7 @@ UNavFilter_DesertAnimal::UNavFilter_DesertAnimal() {
 
 接下来，我们需要用我们想为这个类覆盖的选项填充Desert变量，包括我们要修改的Nav Area:
 
-```C++
+```cpp
 UNavFilter_DesertAnimal::UNavFilter_DesertAnimal() {
   // [PREVIOUS CODE]
  //Set its parameters
@@ -1252,7 +1264,7 @@ UNavFilter_DesertAnimal::UNavFilter_DesertAnimal() {
 
 最后，我们需要在Area数组中添加这个Filter Area:
 
-```C++
+```cpp
 UNavFilter_DesertAnimal::UNavFilter_DesertAnimal() {
   // [PREVIOUS CODE]
   //Add it to the the Array of Areas for the Filter.
@@ -1262,7 +1274,7 @@ UNavFilter_DesertAnimal::UNavFilter_DesertAnimal() {
 
 为了您的方便，这里是完整的。cpp文件:
 
-```C++
+```cpp
 #include "NavFilter_DesertAnimal.h"
 #include "NavArea_Desert.h"
 UNavFilter_DesertAnimal::UNavFilter_DesertAnimal() {
@@ -1281,20 +1293,23 @@ UNavFilter_DesertAnimal::UNavFilter_DesertAnimal() {
 
 编译这段代码，下次需要使用导航系统时就可以使用这个过滤器了。关于导航过滤器的讨论到此结束。
 
-## 覆盖导航系统
+### 覆盖导航系统
+
 在Mode面板中，您可以拖动一个名为Nav System Config Override的特殊actor到关卡中。
 
-![](Images/3.46.jpg)
+![](.gitbook/assets/3.46.jpg)
 
 该actor允许您通过使用另一个actor覆盖内置导航系统。当然，您必须首先开发它，这将需要大量的工作。
 
-![](Images/3.47.jpg)
+![](.gitbook/assets/3.47.jpg)
 
-为什么要替换默认导航系统(或者可能与其他导航系统一起使用)，主要是因为要克服一些限制。那么空军呢?他们如何进行3D寻路?有地面寻路能力的蜘蛛呢?
+为什么要替换默认导航系统\(或者可能与其他导航系统一起使用\)，主要是因为要克服一些限制。那么空军呢?他们如何进行3D寻路?有地面寻路能力的蜘蛛呢?
 
-## 总结
+### 总结
+
 在本章中，我们了解了如何设置导航系统，以便我们的导航系统AI角色可以在地图上移动。特别地，我们已经学习了如何用Modifier Volumes，Nav Link Proxies和NavMesh来塑造导航网格区域。
 
-因此，我们的人工智能代理可以顺利地在地图中导航，高效地找到基于其优化的两点之间的路径(例如使用导航过滤器)，以适应不同类型的“地形”的地图(例如使用导航区域)。此外，他们还会在平台上摔倒或跳跃(比如使用Nav Link Proxies和一些跳跃代码)。
+因此，我们的人工智能代理可以顺利地在地图中导航，高效地找到基于其优化的两点之间的路径\(例如使用导航过滤器\)，以适应不同类型的“地形”的地图\(例如使用导航区域\)。此外，他们还会在平台上摔倒或跳跃\(比如使用Nav Link Proxies和一些跳跃代码\)。
 
-在下一章中，我们将学习虚幻框架中更高级的人工智能特性，即环境查询系统，它允许代理“查询”环境，以便找到具有特定需求的位置(或actors)。
+在下一章中，我们将学习虚幻框架中更高级的人工智能特性，即环境查询系统，它允许代理“查询”环境，以便找到具有特定需求的位置\(或actors\)。
+
